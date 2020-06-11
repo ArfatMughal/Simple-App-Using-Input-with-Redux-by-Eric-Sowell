@@ -4,6 +4,8 @@ import { connect } from "react-redux";
  function InputMirror(props) {
     return(
         <div>
+            <h3>Recode Every Action</h3>
+            <p>To view every changed State open your Console</p>
           <input value={props.inputValue} onChange={props.inputChanged}/>
           <p>{props.inputValue}</p>
         </div>
